@@ -833,7 +833,7 @@ map[rune]int{
   'r': 1,
   's': 2,
   't': 3,
-  'u': 5, // <---- HIGH CONFUSION
+  'u': 5,
   'v': 2,
   'w': 1,
   'x': 1,
