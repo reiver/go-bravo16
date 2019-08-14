@@ -117,6 +117,8 @@ Here are a number of tables listing out the common symbol confusions:....
 |         **5** | 8 (eight)     |
 |         **5** | S (uppercase) |
 |         **5** | s (lowercase) |
+|         **5** | Y (uppercase) |
+|         **5** | y (lowercase) |
 
 ### Six
 
@@ -459,3 +461,19 @@ Here are a number of tables listing out the common symbol confusions:....
 | **x** (lowercase) | X (uppercase) |
 | **x** (lowercase) | Y (uppercase) |
 | **x** (lowercase) | y (lowercase) |
+
+### Y
+
+|     Character     | Confused With |
+|:----------------- |:------------- |
+| **Y** (uppercase) | 5 (five)      |
+| **Y** (uppercase) | X (uppercase) |
+| **Y** (uppercase) | x (lowercase) |
+| **Y** (uppercase) | y (lowercase) |
+
+|     Character     | Confused With |
+|:----------------- |:------------- |
+| **y** (lowercase) | 5 (five)      |
+| **y** (lowercase) | X (uppercase) |
+| **y** (lowercase) | x (lowercase) |
+| **y** (lowercase) | y (lowercase) |
