@@ -50,65 +50,70 @@ Which means that the symbols for 8, 11, 13, 14, and 15 differ between **bravo16*
 There are letters, and numerals that individual can confuse:
 
 |   Character   | Confused With |
-| ------------- | ------------- |
-|         **0** |             8 |
-|         **0** |             D |
-|         **0** |             O |
-|         **0** |             o |
+| ------------- |:------------- |
+|         **0** | 8 (eight)     |
+|         **0** | D (uppercase) |
+|         **0** | O (uppercase) |
+|         **0** | o (lowercase) |
 
 |   Character   | Confused With |
-| ------------- | ------------- |
-|         **1** |             7 |
-|         **1** |             I |
-|         **1** |             i |
-|         **1** |             j |
-|         **1** |             l |
+| ------------- |:------------- |
+|         **1** | 7 (seven)     |
+|         **1** | I (uppercase) |
+|         **1** | i (lowercase) |
+|         **1** | j (lowercase) |
+|         **1** | L (uppercase) |
+|         **1** | l (lowercase) |
 
 |   Character   | Confused With |
-| ------------- | ------------- |
-|         **2** |             Z |
-|         **2** |             z |
+| ------------- |:------------- |
+|         **2** | Z (uppercase) |
+|         **2** | z (uppercase) |
 
 |   Character   | Confused With |
-| ------------- | ------------- |
-|         **3** |             9 |
+| ------------- |:------------- |
+|         **3** | 5 (five)      |
+|         **3** | 8 (eight)     |
+|         **3** | 9 (nine)      |
 
 |   Character   | Confused With |
-| ------------- | ------------- |
-|         **4** |             9 |
+| ------------- |:------------- |
+|         **4** | 9 (nine)      |
 
 |   Character   | Confused With |
-| ------------- | ------------- |
-|         **5** |             3 |
-|         **5** |             8 |
-|         **5** |             S |
-|         **5** |             s |
+| ------------- |:------------- |
+|         **5** | 3 (three)     |
+|         **5** | 8 (eight)     |
+|         **5** | S (uppercase) |
+|         **5** | s (lowercase) |
 
 |   Character   | Confused With |
-| ------------- | ------------- |
-|         **6** |             8 |
-|         **6** |             b |
-|         **6** |             G |
+| ------------- |:------------- |
+|         **6** | 8 (eight)     |
+|         **6** | b (lowercase) |
+|         **6** | G (uppercase) |
 
 |   Character   | Confused With |
-| ------------- | ------------- |
-|         **7** |             1 |
-|         **7** |             F |
-|         **7** |             T |
-|         **7** |             Z |
+| ------------- |:------------- |
+|         **7** | 1 (one)       |
+|         **7** | F (uppercase) |
+|         **7** | T (uppercase) |
+|         **7** | Z (uppercase) |
+|         **7** | z (lowercase) |
 
 |   Character   | Confused With |
-| ------------- | ------------- |
-|         **8** |             3 |
-|         **8** |             5 |
-|         **8** |             6 |
-|         **8** |             B |
-|         **8** |             S |
-|         **8** |             s |
+| ------------- |:------------- |
+|         **8** | 0 (zero)      |
+|         **8** | 3 (three)     |
+|         **8** | 5 (five)      |
+|         **8** | 6 (six)       |
+|         **8** | B (uppercase) |
+|         **8** | S (uppercase) |
+|         **8** | s (uppercase) |
 
 |   Character   | Confused With |
-| ------------- | ------------- |
-|         **9** |             3 |
-|         **9** |             4 |
-|         **9** |             g |
-|         **9** |             q |
+| ------------- |:------------- |
+|         **9** | 3 (three)     |
+|         **9** | 4 (four)      |
+|         **9** | g (lowercase) |
+|         **9** | q (lowercase) |
