@@ -470,10 +470,30 @@ Here are a number of tables listing out the common symbol confusions:....
 | **Y** (uppercase) | X (uppercase) |
 | **Y** (uppercase) | x (lowercase) |
 | **Y** (uppercase) | y (lowercase) |
+| **Y** (uppercase) | Z (uppercase) |
+| **Y** (uppercase) | z (lowercase) |
 
 |     Character     | Confused With |
 |:----------------- |:------------- |
 | **y** (lowercase) | 5 (five)      |
 | **y** (lowercase) | X (uppercase) |
 | **y** (lowercase) | x (lowercase) |
-| **y** (lowercase) | y (lowercase) |
+| **y** (lowercase) | Y (uppercase) |
+| **y** (lowercase) | Z (uppercase) |
+| **y** (lowercase) | z (lowercase) |
+
+### Z
+
+|     Character     | Confused With |
+|:----------------- |:------------- |
+| **Z** (uppercase) | 2 (two)       |
+| **Z** (uppercase) | 7 (seven)     |
+| **Z** (uppercase) | Y (uppercase) |
+| **Z** (uppercase) | y (lowercase) |
+
+|     Character     | Confused With |
+|:----------------- |:------------- |
+| **z** (lowercase) | 2 (two)       |
+| **z** (lowercase) | 7 (seven)     |
+| **z** (lowercase) | Y (uppercase) |
+| **z** (lowercase) | y (lowercase) |
