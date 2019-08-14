@@ -215,6 +215,7 @@ Here are a number of tables listing out the common symbol confusions:....
 |     Character     | Confused With |
 |:----------------- |:------------- |
 | **F** (uppercase) | E (uppercase) |
+| **F** (uppercase) | R (uppercase) |
 
 |     Character     | Confused With |
 |:----------------- |:------------- |
@@ -355,3 +356,11 @@ Here are a number of tables listing out the common symbol confusions:....
 | **q** (lowercase) | 9 (nine)      |
 | **q** (lowercase) | a (lowercase) |
 | **q** (lowercase) | g (lowercase) |
+
+### R
+
+|     Character     | Confused With |
+|:----------------- |:------------- |
+| **R** (uppercase) | F (uppercase) |
+
+**No common confusion for lowercase “r”.**
