@@ -693,3 +693,145 @@ var alphanumericConfusion map[rune]map[rune]struct{} = map[rune]map[rune]struct{
   'z': map[rune]struct{}{},
 }
 ```
+If we then wanted to see which symbols have the most _confusion_ we might (wrongly think we could) use code such as the following:
+```go
+var confusionLevels map[rune]int = map[rune]int{}
+
+for r, confusion := range alphanumericConfusion {
+  confusionLevels[r] = len(confusion)
+}
+```
+
+**THIS IS WRONG!**
+
+If we dumped the contents of `confusionLevels` we would get something such as:
+```go
+map[rune]int{
+  '0': 6,
+  '1': 6,
+  '2': 2,
+  '3': 3,
+  '4': 4,
+  '5': 6,
+  '6': 3,
+  '7': 5,
+  '8': 7,
+  '9': 4,
+  'A': 0,
+  'a': 2,
+  'B': 1,
+  'b': 1,
+  'C': 2,
+  'c': 2,
+  'D': 4,
+  'd': 0,
+  'E': 1,
+  'e': 2,
+  'F': ,
+  'f': ,
+  'G': ,
+  'g': ,
+  'H': ,
+  'h': ,
+  'I': ,
+  'i': ,
+  'J': ,
+  'j': ,
+  'K': ,
+  'k': ,
+  'L': ,
+  'l': ,
+  'M': ,
+  'm': ,
+  'N': ,
+  'n': ,
+  'O': ,
+  'o': ,
+  'P': ,
+  'p': ,
+  'Q': ,
+  'q': ,
+  'R': ,
+  'r': ,
+  'S': ,
+  's': ,
+  'T': ,
+  't': ,
+  'U': ,
+  'u': ,
+  'V': ,
+  'v': ,
+  'W': ,
+  'w': ,
+  'X': ,
+  'x': ,
+  'Y': ,
+  'y': ,
+  'Z': ,
+  'z': ,
+}
+```
+
+Do you notice the problem‽
+
+With that code, we treating _uppercase_ letters, and _lowercase_ letters as different things.
+
+**WE DO NOT WANT TO DO THIS**
+
+Therefore, to see which symbols have the most _confusion_ (where we combine _uppercase_ letters, and _lowercase_ letters) we might use code such as the following:
+```go
+for r, _ := range alphanumericConfusion {
+
+  var confusionUnion map[rune]struct{} = map[rune]struct{}{}
+  for rr, _ := range alphanumericConfusion[unicode.ToUpper(r)] {
+    confusionUnion[unicode.ToLower(rr)] = struct{}{}
+  }
+  for rr, _ := range alphanumericConfusion[unicode.ToLower(r)] {
+    confusionUnion[unicode.ToLower(rr)] = struct{}{}
+  }
+
+  confusionLevels[unicode.ToLower(r)] = len(confusionUnion)
+}
+```
+
+Now if we dumped the contents of `confusionLevels` (where we combine the _confusion_ for _uppercase_ letters, and _lowercase_ letters) we would get something such as:
+```go
+map[rune]int{
+  '0': 6,
+  '1': 6,
+  '2': 2,
+  '3': 3,
+  '4': 4,
+  '5': 6,
+  '6': 3,
+  '7': 5,
+  '8': 7,
+  '9': 4,
+  'a': 2,
+  'b': 2,
+  'c': 2,
+  'd': 3,
+  'e': 2,
+  'f': 3,
+  'g': 4,
+  'h': 0, // <--- no confusion
+  'i': 5,
+  'j': 3,
+  'k': 0, // <---- no confusion
+  'l': 2,
+  'm': 1,
+  'n': 1,
+  'o': 5,
+  'p': ,
+  'q': ,
+  'r': ,
+  's': ,
+  't': ,
+  'u': ,
+  'v': ,
+  'w': ,
+  'x': ,
+  'y': ,
+  'z': ,
+}
+```
