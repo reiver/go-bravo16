@@ -381,7 +381,7 @@ Here are a number of tables listing out the common symbol confusions:....
 |:----------------- |:------------- |
 | **s** (lowercase) | 5 (five)      |
 | **s** (lowercase) | 8 (eight)     |
-| **s** (lowercase) | s (lowercase) |
+| **s** (lowercase) | S (uppwercase) |
 
 ### T (Alphanumeric Confusion)
 
@@ -707,74 +707,74 @@ for r, confusion := range alphanumericConfusion {
 If we dumped the contents of `confusionLevels` we would get something such as:
 ```go
 map[rune]int{
-  '0': 6,
-  '1': 6,
-  '2': 2,
-  '3': 3,
-  '4': 4,
-  '5': 6,
-  '6': 3,
-  '7': 5,
-  '8': 7,
-  '9': 4,
-  'A': 0,
-  'a': 2,
-  'B': 1,
-  'b': 1,
-  'C': 2,
-  'c': 2,
-  'D': 4,
-  'd': 0,
-  'E': 1,
-  'e': 2,
-  'F': ,
-  'f': ,
-  'G': ,
-  'g': ,
-  'H': ,
-  'h': ,
-  'I': ,
-  'i': ,
-  'J': ,
-  'j': ,
-  'K': ,
-  'k': ,
-  'L': ,
-  'l': ,
-  'M': ,
-  'm': ,
-  'N': ,
-  'n': ,
-  'O': ,
-  'o': ,
-  'P': ,
-  'p': ,
-  'Q': ,
-  'q': ,
-  'R': ,
-  'r': ,
-  'S': ,
-  's': ,
-  'T': ,
-  't': ,
-  'U': ,
-  'u': ,
-  'V': ,
-  'v': ,
-  'W': ,
-  'w': ,
-  'X': ,
-  'x': ,
-  'Y': ,
-  'y': ,
-  'Z': ,
-  'z': ,
+  '1': 6, // THIS IS WRONG!
+  '2': 2, // THIS IS WRONG!
+  '3': 3, // THIS IS WRONG!
+  '4': 4, // THIS IS WRONG!
+  '5': 6, // THIS IS WRONG!
+  '6': 3, // THIS IS WRONG!
+  '7': 5, // THIS IS WRONG!
+  '8': 7, // THIS IS WRONG!
+  '9': 4, // THIS IS WRONG!
+  'A': 0, // THIS IS WRONG!
+  'a': 2, // THIS IS WRONG!
+  'B': 1, // THIS IS WRONG!
+  'b': 1, // THIS IS WRONG!
+  'C': 2, // THIS IS WRONG!
+  'c': 2, // THIS IS WRONG!
+  'D': 4, // THIS IS WRONG!
+  'd': 0, // THIS IS WRONG!
+  'E': 1, // THIS IS WRONG!
+  'e': 2, // THIS IS WRONG!
+  'F': , // THIS IS WRONG!
+  'f': , // THIS IS WRONG!
+  'G': , // THIS IS WRONG!
+  'g': , // THIS IS WRONG!
+  'H': , // THIS IS WRONG!
+  'h': , // THIS IS WRONG!
+  'I': , // THIS IS WRONG!
+  'i': , // THIS IS WRONG!
+  'J': , // THIS IS WRONG!
+  'j': , // THIS IS WRONG!
+  'K': , // THIS IS WRONG!
+  'k': , // THIS IS WRONG!
+  'L': , // THIS IS WRONG!
+  'l': , // THIS IS WRONG!
+  'M': , // THIS IS WRONG!
+  'm': , // THIS IS WRONG!
+  'N': , // THIS IS WRONG!
+  'n': , // THIS IS WRONG!
+  'O': , // THIS IS WRONG!
+  'o': , // THIS IS WRONG!
+  'P': , // THIS IS WRONG!
+  'p': , // THIS IS WRONG!
+  'Q': , // THIS IS WRONG!
+  'q': , // THIS IS WRONG!
+  'R': , // THIS IS WRONG!
+  'r': , // THIS IS WRONG!
+  'S': , // THIS IS WRONG!
+  's': , // THIS IS WRONG!
+  'T': , // THIS IS WRONG!
+  't': , // THIS IS WRONG!
+  'U': , // THIS IS WRONG!
+  'u': , // THIS IS WRONG!
+  'V': , // THIS IS WRONG!
+  'v': , // THIS IS WRONG!
+  'W': , // THIS IS WRONG!
+  'w': , // THIS IS WRONG!
+  'X': , // THIS IS WRONG!
+  'x': , // THIS IS WRONG!
+  'Y': , // THIS IS WRONG!
+  'y': , // THIS IS WRONG!
+  'Z': , // THIS IS WRONG!
+  'z': , // THIS IS WRONG!
 }
 ```
 
 Do you notice the problem‽
 
 With that code, we treating _uppercase_ letters, and _lowercase_ letters as different things.
+Also, the code counted itself in the alternate case.
 
 **WE DO NOT WANT TO DO THIS**
 
