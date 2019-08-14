@@ -434,3 +434,14 @@ Here are a number of tables listing out the common symbol confusions:....
 | **v** (lowercase) | W (uppercase) |
 | **v** (lowercase) | w (lowercase) |
 
+### W
+
+|     Character     | Confused With |
+|:----------------- |:------------- |
+| **W** (uppercase) | V (uppercase) |
+| **W** (uppercase) | v (lowercase) |
+
+|     Character     | Confused With |
+|:----------------- |:------------- |
+| **w** (lowercase) | V (uppercase) |
+| **w** (lowercase) | v (lowercase) |
