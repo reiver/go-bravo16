@@ -188,7 +188,7 @@ Here are a number of tables listing out the common symbol confusions:....
 ### D
 
 |     Character     | Confused With |
-| ----------------- |:------------- |
+|:----------------- |:------------- |
 | **D** (uppercase) | 0 (zero)      |
 | **D** (uppercase) | O (uppercase) |
 | **D** (uppercase) | o (lowercase) |
@@ -198,34 +198,34 @@ Here are a number of tables listing out the common symbol confusions:....
 ### E
 
 |     Character     | Confused With |
-| ----------------- |:------------- |
+|:----------------- |:------------- |
 | **E** (uppercase) | F (uppercase) |
 
 |     Character     | Confused With |
-| ----------------- |:------------- |
+|:----------------- |:------------- |
 | **e** (lowercase) | C (uppercase) |
 | **e** (lowercase) | c (lowercase) |
 
 ### F
 
 |     Character     | Confused With |
-| ----------------- |:------------- |
+|:----------------- |:------------- |
 | **F** (uppercase) | E (uppercase) |
 
 |     Character     | Confused With |
-| ----------------- |:------------- |
+|:----------------- |:------------- |
 | **f** (lowercase) | t (lowercase) |
 
 ### G
 
 |     Character     | Confused With |
-| ----------------- |:------------- |
+|:----------------- |:------------- |
 | **G** (uppercase) | 6 (six)       |
 | **G** (uppercase) | C (uppercase) |
 | **G** (uppercase) | c (lowercase) |
 
 |     Character     | Confused With |
-| ----------------- |:------------- |
+|:----------------- |:------------- |
 | **g** (lowercase) | 9 (nine)      |
 | **g** (lowercase) | q (lowercase) |
 
@@ -238,7 +238,7 @@ Here are a number of tables listing out the common symbol confusions:....
 ### I
 
 |     Character     | Confused With |
-| ----------------- |:------------- |
+|:----------------- |:------------- |
 | **I** (uppercase) | 1 (one)       |
 | **I** (uppercase) | i (lowercase) |
 | **I** (uppercase) | J (uppercase) |
@@ -248,9 +248,24 @@ Here are a number of tables listing out the common symbol confusions:....
 | **I** (uppercase) | T (uppercase) |
 
 |     Character     | Confused With |
-| ----------------- |:------------- |
+|:----------------- |:------------- |
 | **i** (lowercase) | 1 (one)       |
 | **i** (lowercase) | I (uppercase) |
 | **i** (lowercase) | J (uppercase) |
 | **i** (lowercase) | j (lowercase) |
 | **i** (lowercase) | l (lowercase) |
+
+### J
+
+|     Character     | Confused With |
+|:----------------- |:------------- |
+| **J** (uppercase) | I (uppercase) |
+| **J** (uppercase) | i (lowercase) |
+| **J** (uppercase) | j (lowercase) |
+
+|     Character     | Confused With |
+|:----------------- |:------------- |
+| **j** (lowercase) | 1 (one)       |
+| **j** (lowercase) | I (uppercase) |
+| **j** (lowercase) | i (lowercase) |
+| **j** (lowercase) | J (uppercase) |
