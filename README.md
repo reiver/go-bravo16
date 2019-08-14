@@ -62,12 +62,16 @@ This confusion can be due to different reasons, namely:
 
 Here are a number of tables listing out the common symbol confusions:....
 
+### Zero
+
 |   Character   | Confused With |
 | ------------- |:------------- |
 |         **0** | 8 (eight)     |
 |         **0** | D (uppercase) |
 |         **0** | O (uppercase) |
 |         **0** | o (lowercase) |
+
+### One
 
 |   Character   | Confused With |
 | ------------- |:------------- |
@@ -78,10 +82,14 @@ Here are a number of tables listing out the common symbol confusions:....
 |         **1** | L (uppercase) |
 |         **1** | l (lowercase) |
 
+### Two
+
 |   Character   | Confused With |
 | ------------- |:------------- |
 |         **2** | Z (uppercase) |
 |         **2** | z (uppercase) |
+
+### Three
 
 |   Character   | Confused With |
 | ------------- |:------------- |
@@ -89,9 +97,13 @@ Here are a number of tables listing out the common symbol confusions:....
 |         **3** | 8 (eight)     |
 |         **3** | 9 (nine)      |
 
+### Four
+
 |   Character   | Confused With |
 | ------------- |:------------- |
 |         **4** | 9 (nine)      |
+
+### Five
 
 |   Character   | Confused With |
 | ------------- |:------------- |
@@ -100,11 +112,15 @@ Here are a number of tables listing out the common symbol confusions:....
 |         **5** | S (uppercase) |
 |         **5** | s (lowercase) |
 
+### Six
+
 |   Character   | Confused With |
 | ------------- |:------------- |
 |         **6** | 8 (eight)     |
 |         **6** | b (lowercase) |
 |         **6** | G (uppercase) |
+
+### Seven
 
 |   Character   | Confused With |
 | ------------- |:------------- |
@@ -113,6 +129,8 @@ Here are a number of tables listing out the common symbol confusions:....
 |         **7** | T (uppercase) |
 |         **7** | Z (uppercase) |
 |         **7** | z (lowercase) |
+
+### Eight
 
 |   Character   | Confused With |
 | ------------- |:------------- |
@@ -124,9 +142,41 @@ Here are a number of tables listing out the common symbol confusions:....
 |         **8** | S (uppercase) |
 |         **8** | s (uppercase) |
 
+### Nine
+
 |   Character   | Confused With |
 | ------------- |:------------- |
 |         **9** | 3 (three)     |
 |         **9** | 4 (four)      |
 |         **9** | g (lowercase) |
 |         **9** | q (lowercase) |
+
+### A
+
+|     Character     | Confused With |
+|:----------------- |:------------- |
+| **a** (lowercase) | o (lowercase) |
+| **a** (lowercase) | q (lowercase) |
+
+### B
+
+|     Character     | Confused With |
+|:----------------- |:------------- |
+| **B** (uppercase) | 8 (eight)     |
+
+|     Character     | Confused With |
+|:----------------- |:------------- |
+| **b** (lowercase) | 6 (six)       |
+
+
+### C
+
+|     Character     | Confused With |
+|:----------------- |:------------- |
+| **C** (uppercase) | e (lowercase) | 
+| **C** (uppercase) | G (uppercase) |
+
+|     Character     | Confused With |
+|:----------------- |:------------- |
+| **c** (lowercase) | e (lowercase) |
+| **c** (lowercase) | G (uppercase) |
