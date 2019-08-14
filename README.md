@@ -194,3 +194,24 @@ Here are a number of tables listing out the common symbol confusions:....
 | **D** (uppercase) | o (lowercase) |
 
 **No common confusion for lowercase “d”**
+
+### E
+
+|     Character     | Confused With |
+| ----------------- |:------------- |
+| **E** (uppercase) | F (uppercase) |
+
+|     Character     | Confused With |
+| ----------------- |:------------- |
+| **e** (lowercase) | C (uppercase) |
+| **e** (lowercase) | c (lowercase) |
+
+### F
+
+|     Character     | Confused With |
+| ----------------- |:------------- |
+| **F** (uppercase) | E (uppercase) |
+
+|     Character     | Confused With |
+| ----------------- |:------------- |
+| **f** (lowercase) | t (lowercase) |
