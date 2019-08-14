@@ -445,3 +445,17 @@ Here are a number of tables listing out the common symbol confusions:....
 |:----------------- |:------------- |
 | **w** (lowercase) | V (uppercase) |
 | **w** (lowercase) | v (lowercase) |
+
+### X
+
+|     Character     | Confused With |
+|:----------------- |:------------- |
+| **X** (uppercase) | x (lowercase) |
+| **X** (uppercase) | Y (uppercase) |
+| **X** (uppercase) | y (lowercase) |
+
+|     Character     | Confused With |
+|:----------------- |:------------- |
+| **x** (lowercase) | X (uppercase) |
+| **x** (lowercase) | Y (uppercase) |
+| **x** (lowercase) | y (lowercase) |
