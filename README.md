@@ -415,3 +415,22 @@ Here are a number of tables listing out the common symbol confusions:....
 | **u** (lowercase) | u (lowercase) |
 | **u** (lowercase) | V (uppercase) |
 | **u** (lowercase) | v (lowercase) |
+
+### V
+
+|     Character     | Confused With |
+|:----------------- |:------------- |
+| **V** (uppercase) | U (uppercase) |
+| **V** (uppercase) | u (lowercase) |
+| **V** (uppercase) | v (lowercase) |
+| **V** (uppercase) | W (uppercase) |
+| **V** (uppercase) | w (lowercase) |
+
+|     Character     | Confused With |
+|:----------------- |:------------- |
+| **v** (lowercase) | U (uppercase) |
+| **v** (lowercase) | u (lowercase) |
+| **v** (lowercase) | V (uppercase) |
+| **v** (lowercase) | W (uppercase) |
+| **v** (lowercase) | w (lowercase) |
+
