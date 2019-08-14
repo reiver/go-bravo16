@@ -215,3 +215,16 @@ Here are a number of tables listing out the common symbol confusions:....
 |     Character     | Confused With |
 | ----------------- |:------------- |
 | **f** (lowercase) | t (lowercase) |
+
+### G
+
+|     Character     | Confused With |
+| ----------------- |:------------- |
+| **G** (uppercase) | 6 (six)       |
+| **G** (uppercase) | C (uppercase) |
+| **G** (uppercase) | c (lowercase) |
+
+|     Character     | Confused With |
+| ----------------- |:------------- |
+| **g** (lowercase) | 9 (nine)      |
+| **g** (lowercase) | q (lowercase) |
