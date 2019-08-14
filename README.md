@@ -369,13 +369,25 @@ Here are a number of tables listing out the common symbol confusions:....
 
 |     Character     | Confused With |
 |:----------------- |:------------- |
-| **S** (uppercase) | 5 (five) |
+| **S** (uppercase) | 5 (five)      |
 | **S** (uppercase) | 8 (eight)     |
 | **S** (uppercase) | s (lowercase) |
 
 |     Character     | Confused With |
 |:----------------- |:------------- |
-| **s** (lowercase) | 5 (five) |
+| **s** (lowercase) | 5 (five)      |
 | **s** (lowercase) | 8 (eight)     |
 | **s** (lowercase) | s (lowercase) |
+
+### T
+
+|     Character     | Confused With |
+|:----------------- |:------------- |
+| **T** (uppercase) | 7 (seven)     |
+| **T** (uppercase) | I (uppercase) |
+
+|     Character     | Confused With |
+|:----------------- |:------------- |
+| **t** (lowercase) | f (lowercase) |
+
 
