@@ -269,3 +269,9 @@ Here are a number of tables listing out the common symbol confusions:....
 | **j** (lowercase) | I (uppercase) |
 | **j** (lowercase) | i (lowercase) |
 | **j** (lowercase) | J (uppercase) |
+
+### K
+
+**No common confusion for uppercase “K”.**
+
+**No common confusion for lowercase “k”.**
