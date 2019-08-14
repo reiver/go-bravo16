@@ -326,3 +326,13 @@ Here are a number of tables listing out the common symbol confusions:....
 | **O** (lowercase) | O (uppercase) |
 | **O** (lowercase) | Q (uppercase) |
 | **O** (lowercase) | U (uppercase) |
+
+### P
+
+|     Character     | Confused With |
+|:----------------- |:------------- |
+| **P** (uppercase) | B (uppercase) |
+
+|     Character     | Confused With |
+|:----------------- |:------------- |
+| **p** (lowercase) | n (lowercase) |
