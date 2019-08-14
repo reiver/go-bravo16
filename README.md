@@ -44,3 +44,71 @@ The following symbols are used for the **bravo16** encoding:
 |     **p** |           f |      15 |   1111 |
 
 Which means that the symbols for 8, 11, 13, 14, and 15 differ between **bravo16** and _hexadecimal_.
+
+## Safety
+
+There are letters, and numerals that individual can confuse:
+
+|   Character   | Confused With |
+| ------------- | ------------- |
+|         **0** |             8 |
+|         **0** |             D |
+|         **0** |             O |
+|         **0** |             o |
+
+|   Character   | Confused With |
+| ------------- | ------------- |
+|         **1** |             7 |
+|         **1** |             I |
+|         **1** |             i |
+|         **1** |             j |
+|         **1** |             l |
+
+|   Character   | Confused With |
+| ------------- | ------------- |
+|         **2** |             Z |
+|         **2** |             z |
+
+|   Character   | Confused With |
+| ------------- | ------------- |
+|         **3** |             9 |
+
+|   Character   | Confused With |
+| ------------- | ------------- |
+|         **4** |             9 |
+
+|   Character   | Confused With |
+| ------------- | ------------- |
+|         **5** |             3 |
+|         **5** |             8 |
+|         **5** |             S |
+|         **5** |             s |
+
+|   Character   | Confused With |
+| ------------- | ------------- |
+|         **6** |             8 |
+|         **6** |             b |
+|         **6** |             G |
+
+|   Character   | Confused With |
+| ------------- | ------------- |
+|         **7** |             1 |
+|         **7** |             F |
+|         **7** |             T |
+|         **7** |             Z |
+
+|   Character   | Confused With |
+| ------------- | ------------- |
+|         **8** |             3 |
+|         **8** |             5 |
+|         **8** |             6 |
+|         **8** |             B |
+|         **8** |             S |
+|         **8** |             s |
+
+|   Character   | Confused With |
+| ------------- | ------------- |
+|         **9** |             3 |
+|         **9** |             4 |
+|         **9** |             g |
+|         **9** |             q |
