@@ -234,3 +234,23 @@ Here are a number of tables listing out the common symbol confusions:....
 **No common confusion for uppercase “H”.**
 
 **No common confusion for lowercase “h”.**
+
+### I
+
+|     Character     | Confused With |
+| ----------------- |:------------- |
+| **I** (uppercase) | 1 (one)       |
+| **I** (uppercase) | i (lowercase) |
+| **I** (uppercase) | J (uppercase) |
+| **I** (uppercase) | j (lowercase) |
+| **I** (uppercase) | L (uppercase) |
+| **I** (uppercase) | l (lowercase) |
+| **I** (uppercase) | T (uppercase) |
+
+|     Character     | Confused With |
+| ----------------- |:------------- |
+| **i** (lowercase) | 1 (one)       |
+| **i** (lowercase) | I (uppercase) |
+| **i** (lowercase) | J (uppercase) |
+| **i** (lowercase) | j (lowercase) |
+| **i** (lowercase) | l (lowercase) |
