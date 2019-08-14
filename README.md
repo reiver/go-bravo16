@@ -784,9 +784,15 @@ for r, _ := range alphanumericConfusion {
 
   var confusionUnion map[rune]struct{} = map[rune]struct{}{}
   for rr, _ := range alphanumericConfusion[unicode.ToUpper(r)] {
+    if unicode.ToLower(rr) == unicode.ToLower(r) {
+      continue
+    }
     confusionUnion[unicode.ToLower(rr)] = struct{}{}
   }
   for rr, _ := range alphanumericConfusion[unicode.ToLower(r)] {
+    if unicode.ToLower(rr) == unicode.ToLower(r) {
+      continue
+    }
     confusionUnion[unicode.ToLower(rr)] = struct{}{}
   }
 
@@ -821,17 +827,17 @@ map[rune]int{
   'l': 2,
   'm': 1,
   'n': 1,
-  'o': 5,
-  'p': ,
-  'q': ,
-  'r': ,
-  's': ,
-  't': ,
-  'u': ,
-  'v': ,
-  'w': ,
-  'x': ,
-  'y': ,
-  'z': ,
+  'o': 4,
+  'p': 2,
+  'q': 7, // <---- HIGH CONFUSION
+  'r': 1,
+  's': 2,
+  't': 3,
+  'u': 5, // <---- HIGH CONFUSION
+  'v': 2,
+  'w': 1,
+  'x': 1,
+  'y': 3,
+  'z': 3,
 }
 ```
