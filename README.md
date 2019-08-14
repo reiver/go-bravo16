@@ -158,6 +158,8 @@ Here are a number of tables listing out the common symbol confusions:....
 | **a** (lowercase) | o (lowercase) |
 | **a** (lowercase) | q (lowercase) |
 
+**No common confusion for uppercase A**
+
 ### B
 
 |     Character     | Confused With |
@@ -180,3 +182,13 @@ Here are a number of tables listing out the common symbol confusions:....
 |:----------------- |:------------- |
 | **c** (lowercase) | e (lowercase) |
 | **c** (lowercase) | G (uppercase) |
+
+### D
+
+|     Character     | Confused With |
+| ----------------- |:------------- |
+| **D** (uppercase) | 0 (zero)      |
+| **D** (uppercase) | O (uppercase) |
+| **D** (uppercase) | o (lowercase) |
+
+**No common confusion for lowercase d**
