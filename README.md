@@ -106,6 +106,8 @@ Here are a number of tables listing out the common symbol confusions:....
 |   Character   | Confused With |
 | ------------- |:------------- |
 |         **4** | 9 (nine)      |
+|         **4** | U (uppercase) |
+|         **4** | u (lowercase) |
 
 ### Five
 
@@ -390,4 +392,26 @@ Here are a number of tables listing out the common symbol confusions:....
 |:----------------- |:------------- |
 | **t** (lowercase) | f (lowercase) |
 
+### U
 
+|     Character     | Confused With |
+|:----------------- |:------------- |
+| **U** (uppercase) | 0 (zero)      |
+| **U** (uppercase) | 4 (four)      |
+| **U** (uppercase) | O (uppercase) |
+| **U** (uppercase) | o (lowercase) |
+| **U** (uppercase) | Q (uppercase) |
+| **U** (uppercase) | u (lowercase) |
+| **U** (uppercase) | V (uppercase) |
+| **U** (uppercase) | v (lowercase) |
+
+|     Character     | Confused With |
+|:----------------- |:------------- |
+| **u** (lowercase) | 0 (zero)      |
+| **u** (lowercase) | 4 (four)      |
+| **u** (lowercase) | O (uppercase) |
+| **u** (lowercase) | o (lowercase) |
+| **u** (lowercase) | Q (uppercase) |
+| **u** (lowercase) | u (lowercase) |
+| **u** (lowercase) | V (uppercase) |
+| **u** (lowercase) | v (lowercase) |
