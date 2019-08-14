@@ -330,10 +330,10 @@ Here are a number of tables listing out the common symbol confusions:....
 |     Character     | Confused With |
 |:----------------- |:------------- |
 | **o** (lowercase) | 0 (zero)      |
-| **O** (lowercase) | D (uppercase) |
-| **O** (lowercase) | O (uppercase) |
-| **O** (lowercase) | Q (uppercase) |
-| **O** (lowercase) | U (uppercase) |
+| **o** (lowercase) | D (uppercase) |
+| **o** (lowercase) | O (uppercase) |
+| **o** (lowercase) | Q (uppercase) |
+| **o** (lowercase) | U (uppercase) |
 
 ### P (Alphanumeric Confusion)
 
