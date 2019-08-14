@@ -64,7 +64,7 @@ This confusion can be due to different reasons, namely:
 
 Here are a number of tables listing out the common symbol confusions:....
 
-### Zero
+### Zero (Alphanumeric Confusion)
 
 |   Character   | Confused With |
 | ------------- |:------------- |
@@ -75,7 +75,7 @@ Here are a number of tables listing out the common symbol confusions:....
 |         **0** | Q (uppercase) |
 |         **0** | U (uppercase) |
 
-### One
+### One (Alphanumeric Confusion)
 
 |   Character   | Confused With |
 | ------------- |:------------- |
@@ -86,14 +86,14 @@ Here are a number of tables listing out the common symbol confusions:....
 |         **1** | L (uppercase) |
 |         **1** | l (lowercase) |
 
-### Two
+### Two (Alphanumeric Confusion)
 
 |   Character   | Confused With |
 | ------------- |:------------- |
 |         **2** | Z (uppercase) |
 |         **2** | z (uppercase) |
 
-### Three
+### Three (Alphanumeric Confusion)
 
 |   Character   | Confused With |
 | ------------- |:------------- |
@@ -101,7 +101,7 @@ Here are a number of tables listing out the common symbol confusions:....
 |         **3** | 8 (eight)     |
 |         **3** | 9 (nine)      |
 
-### Four
+### Four (Alphanumeric Confusion)
 
 |   Character   | Confused With |
 | ------------- |:------------- |
@@ -109,7 +109,7 @@ Here are a number of tables listing out the common symbol confusions:....
 |         **4** | U (uppercase) |
 |         **4** | u (lowercase) |
 
-### Five
+### Five (Alphanumeric Confusion)
 
 |   Character   | Confused With |
 | ------------- |:------------- |
@@ -120,7 +120,7 @@ Here are a number of tables listing out the common symbol confusions:....
 |         **5** | Y (uppercase) |
 |         **5** | y (lowercase) |
 
-### Six
+### Six (Alphanumeric Confusion)
 
 |   Character   | Confused With |
 | ------------- |:------------- |
@@ -128,7 +128,7 @@ Here are a number of tables listing out the common symbol confusions:....
 |         **6** | b (lowercase) |
 |         **6** | G (uppercase) |
 
-### Seven
+### Seven (Alphanumeric Confusion)
 
 |   Character   | Confused With |
 | ------------- |:------------- |
@@ -138,7 +138,7 @@ Here are a number of tables listing out the common symbol confusions:....
 |         **7** | Z (uppercase) |
 |         **7** | z (lowercase) |
 
-### Eight
+### Eight (Alphanumeric Confusion)
 
 |   Character   | Confused With |
 | ------------- |:------------- |
@@ -150,7 +150,7 @@ Here are a number of tables listing out the common symbol confusions:....
 |         **8** | S (uppercase) |
 |         **8** | s (uppercase) |
 
-### Nine
+### Nine (Alphanumeric Confusion)
 
 |   Character   | Confused With |
 | ------------- |:------------- |
@@ -159,7 +159,7 @@ Here are a number of tables listing out the common symbol confusions:....
 |         **9** | g (lowercase) |
 |         **9** | q (lowercase) |
 
-### A
+### A (Alphanumeric Confusion)
 
 |     Character     | Confused With |
 |:----------------- |:------------- |
@@ -168,7 +168,7 @@ Here are a number of tables listing out the common symbol confusions:....
 
 **No common confusion for uppercase “A”.**
 
-### B
+### B (Alphanumeric Confusion)
 
 |     Character     | Confused With |
 |:----------------- |:------------- |
@@ -179,7 +179,7 @@ Here are a number of tables listing out the common symbol confusions:....
 | **b** (lowercase) | 6 (six)       |
 
 
-### C
+### C (Alphanumeric Confusion)
 
 |     Character     | Confused With |
 |:----------------- |:------------- |
@@ -191,7 +191,7 @@ Here are a number of tables listing out the common symbol confusions:....
 | **c** (lowercase) | e (lowercase) |
 | **c** (lowercase) | G (uppercase) |
 
-### D
+### D (Alphanumeric Confusion)
 
 |     Character     | Confused With |
 |:----------------- |:------------- |
@@ -203,7 +203,7 @@ Here are a number of tables listing out the common symbol confusions:....
 
 **No common confusion for lowercase “d”.**
 
-### E
+### E (Alphanumeric Confusion)
 
 |     Character     | Confused With |
 |:----------------- |:------------- |
@@ -214,7 +214,7 @@ Here are a number of tables listing out the common symbol confusions:....
 | **e** (lowercase) | C (uppercase) |
 | **e** (lowercase) | c (lowercase) |
 
-### F
+### F (Alphanumeric Confusion)
 
 |     Character     | Confused With |
 |:----------------- |:------------- |
@@ -225,7 +225,7 @@ Here are a number of tables listing out the common symbol confusions:....
 |:----------------- |:------------- |
 | **f** (lowercase) | t (lowercase) |
 
-### G
+### G (Alphanumeric Confusion)
 
 |     Character     | Confused With |
 |:----------------- |:------------- |
@@ -238,13 +238,13 @@ Here are a number of tables listing out the common symbol confusions:....
 | **g** (lowercase) | 9 (nine)      |
 | **g** (lowercase) | q (lowercase) |
 
-### H
+### H (Alphanumeric Confusion)
 
 **No common confusion for uppercase “H”.**
 
 **No common confusion for lowercase “h”.**
 
-### I
+### I (Alphanumeric Confusion)
 
 |     Character     | Confused With |
 |:----------------- |:------------- |
@@ -264,7 +264,7 @@ Here are a number of tables listing out the common symbol confusions:....
 | **i** (lowercase) | j (lowercase) |
 | **i** (lowercase) | l (lowercase) |
 
-### J
+### J (Alphanumeric Confusion)
 
 |     Character     | Confused With |
 |:----------------- |:------------- |
@@ -279,13 +279,13 @@ Here are a number of tables listing out the common symbol confusions:....
 | **j** (lowercase) | i (lowercase) |
 | **j** (lowercase) | J (uppercase) |
 
-### K
+### K (Alphanumeric Confusion)
 
 **No common confusion for uppercase “K”.**
 
 **No common confusion for lowercase “k”.**
 
-### L
+### L (Alphanumeric Confusion)
 
 |     Character     | Confused With |
 |:----------------- |:------------- |
@@ -297,7 +297,7 @@ Here are a number of tables listing out the common symbol confusions:....
 | **l** (lowercase) | I (uppercase) |
 | **l** (lowercase) | i (lowercase) |
 
-### M
+### M (Alphanumeric Confusion)
 
 |     Character     | Confused With |
 |:----------------- |:------------- |
@@ -307,7 +307,7 @@ Here are a number of tables listing out the common symbol confusions:....
 |:----------------- |:------------- |
 | **m** (lowercase) | n (lowercase) |
 
-### N
+### N (Alphanumeric Confusion)
 
 |     Character     | Confused With |
 |:----------------- |:------------- |
@@ -317,7 +317,7 @@ Here are a number of tables listing out the common symbol confusions:....
 |:----------------- |:------------- |
 | **n** (lowercase) | m (lowercase) |
 
-### O
+### O (Alphanumeric Confusion)
 
 |     Character     | Confused With |
 |:----------------- |:------------- |
@@ -335,7 +335,7 @@ Here are a number of tables listing out the common symbol confusions:....
 | **O** (lowercase) | Q (uppercase) |
 | **O** (lowercase) | U (uppercase) |
 
-### P
+### P (Alphanumeric Confusion)
 
 |     Character     | Confused With |
 |:----------------- |:------------- |
@@ -345,7 +345,7 @@ Here are a number of tables listing out the common symbol confusions:....
 |:----------------- |:------------- |
 | **p** (lowercase) | n (lowercase) |
 
-### Q
+### Q (Alphanumeric Confusion)
 
 |     Character     | Confused With |
 |:----------------- |:------------- |
@@ -361,7 +361,7 @@ Here are a number of tables listing out the common symbol confusions:....
 | **q** (lowercase) | a (lowercase) |
 | **q** (lowercase) | g (lowercase) |
 
-### R
+### R (Alphanumeric Confusion)
 
 |     Character     | Confused With |
 |:----------------- |:------------- |
@@ -369,7 +369,7 @@ Here are a number of tables listing out the common symbol confusions:....
 
 **No common confusion for lowercase “r”.**
 
-### S
+### S (Alphanumeric Confusion)
 
 |     Character     | Confused With |
 |:----------------- |:------------- |
@@ -383,7 +383,7 @@ Here are a number of tables listing out the common symbol confusions:....
 | **s** (lowercase) | 8 (eight)     |
 | **s** (lowercase) | s (lowercase) |
 
-### T
+### T (Alphanumeric Confusion)
 
 |     Character     | Confused With |
 |:----------------- |:------------- |
@@ -394,7 +394,7 @@ Here are a number of tables listing out the common symbol confusions:....
 |:----------------- |:------------- |
 | **t** (lowercase) | f (lowercase) |
 
-### U
+### U (Alphanumeric Confusion)
 
 |     Character     | Confused With |
 |:----------------- |:------------- |
@@ -418,7 +418,7 @@ Here are a number of tables listing out the common symbol confusions:....
 | **u** (lowercase) | V (uppercase) |
 | **u** (lowercase) | v (lowercase) |
 
-### V
+### V (Alphanumeric Confusion)
 
 |     Character     | Confused With |
 |:----------------- |:------------- |
@@ -436,7 +436,7 @@ Here are a number of tables listing out the common symbol confusions:....
 | **v** (lowercase) | W (uppercase) |
 | **v** (lowercase) | w (lowercase) |
 
-### W
+### W (Alphanumeric Confusion)
 
 |     Character     | Confused With |
 |:----------------- |:------------- |
@@ -448,7 +448,7 @@ Here are a number of tables listing out the common symbol confusions:....
 | **w** (lowercase) | V (uppercase) |
 | **w** (lowercase) | v (lowercase) |
 
-### X
+### X (Alphanumeric Confusion)
 
 |     Character     | Confused With |
 |:----------------- |:------------- |
@@ -462,7 +462,7 @@ Here are a number of tables listing out the common symbol confusions:....
 | **x** (lowercase) | Y (uppercase) |
 | **x** (lowercase) | y (lowercase) |
 
-### Y
+### Y (Alphanumeric Confusion)
 
 |     Character     | Confused With |
 |:----------------- |:------------- |
@@ -482,7 +482,7 @@ Here are a number of tables listing out the common symbol confusions:....
 | **y** (lowercase) | Z (uppercase) |
 | **y** (lowercase) | z (lowercase) |
 
-### Z
+### Z (Alphanumeric Confusion)
 
 |     Character     | Confused With |
 |:----------------- |:------------- |
@@ -497,3 +497,73 @@ Here are a number of tables listing out the common symbol confusions:....
 | **z** (lowercase) | 7 (seven)     |
 | **z** (lowercase) | Y (uppercase) |
 | **z** (lowercase) | y (lowercase) |
+
+### Golang (Alphanumeric Confusion)
+
+We could encode these _alphanumeric confusion_ relations in Golang with a structure such as:
+```go
+var alphanumericConfusion map[rune]map[rune]struct{}{
+  '0': map[rune]struct{}{},
+  '1': map[rune]struct{}{},
+  '2': map[rune]struct{}{},
+  '3': map[rune]struct{}{},
+  '4': map[rune]struct{}{},
+  '5': map[rune]struct{}{},
+  '6': map[rune]struct{}{},
+  '7': map[rune]struct{}{},
+  '8': map[rune]struct{}{},
+  '9': map[rune]struct{}{},
+  'A': map[rune]struct{}{},
+  'a': map[rune]struct{}{},
+  'B': map[rune]struct{}{},
+  'C': map[rune]struct{}{},
+  'c': map[rune]struct{}{},
+  'D': map[rune]struct{}{},
+  'd': map[rune]struct{}{},
+  'E': map[rune]struct{}{},
+  'e': map[rune]struct{}{},
+  'F': map[rune]struct{}{},
+  'f': map[rune]struct{}{},
+  'G': map[rune]struct{}{},
+  'g': map[rune]struct{}{},
+  'H': map[rune]struct{}{},
+  'h': map[rune]struct{}{},
+  'I': map[rune]struct{}{},
+  'i': map[rune]struct{}{},
+  'J': map[rune]struct{}{},
+  'j': map[rune]struct{}{},
+  'K': map[rune]struct{}{},
+  'k': map[rune]struct{}{},
+  'L': map[rune]struct{}{},
+  'l': map[rune]struct{}{},
+  'M': map[rune]struct{}{},
+  'm': map[rune]struct{}{},
+  'N': map[rune]struct{}{},
+  'n': map[rune]struct{}{},
+  'O': map[rune]struct{}{},
+  'o': map[rune]struct{}{},
+  'P': map[rune]struct{}{},
+  'p': map[rune]struct{}{},
+  'Q': map[rune]struct{}{},
+  'q': map[rune]struct{}{},
+  'R': map[rune]struct{}{},
+  'r': map[rune]struct{}{},
+  'S': map[rune]struct{}{},
+  's': map[rune]struct{}{},
+  'T': map[rune]struct{}{},
+  't': map[rune]struct{}{},
+  'U': map[rune]struct{}{},
+  'u': map[rune]struct{}{},
+  'V': map[rune]struct{}{},
+  'v': map[rune]struct{}{},
+  'W': map[rune]struct{}{},
+  'w': map[rune]struct{}{},
+  'X': map[rune]struct{}{},
+  'x': map[rune]struct{}{},
+  'Y': map[rune]struct{}{},
+  'y': map[rune]struct{}{},
+  'Z': map[rune]struct{}{},
+  'z': map[rune]struct{}{},
+}
+```
+Where the _keys_ of the outer `map` is the value from the _character_ column in our _alphanumeric confusion_ tables.
