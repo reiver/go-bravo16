@@ -72,6 +72,7 @@ Here are a number of tables listing out the common symbol confusions:....
 |         **0** | D (uppercase) |
 |         **0** | O (uppercase) |
 |         **0** | o (lowercase) |
+|         **0** | Q (uppercase) |
 |         **0** | U (uppercase) |
 
 ### One
@@ -193,6 +194,8 @@ Here are a number of tables listing out the common symbol confusions:....
 | **D** (uppercase) | 0 (zero)      |
 | **D** (uppercase) | O (uppercase) |
 | **D** (uppercase) | o (lowercase) |
+| **D** (uppercase) | Q (uppercase) |
+
 
 **No common confusion for lowercase “d”.**
 
@@ -336,3 +339,14 @@ Here are a number of tables listing out the common symbol confusions:....
 |     Character     | Confused With |
 |:----------------- |:------------- |
 | **p** (lowercase) | n (lowercase) |
+
+### Q
+
+|     Character     | Confused With |
+|:----------------- |:------------- |
+| **Q** (uppercase) | 0 (zero)      |
+| **Q** (uppercase) | D (uppercase) |
+| **Q** (uppercase) | O (uppercase) |
+| **Q** (uppercase) | o (lowercase) |
+| **Q** (uppercase) | U (uppercase) |
+
