@@ -14,6 +14,8 @@ Rather than using hexadecimal's symbols:
 0 1 2 3 4 5 6 7 k 9 a m c x w p
 ```
 
+(Why these symbols were chosen is covered later in this document.)
+
 ## Documention
 
 Online documentation, which includes examples, can be found at: http://godoc.org/github.com/reiver/go-bravo16
