@@ -45,9 +45,22 @@ The following symbols are used for the **bravo16** encoding:
 
 Which means that the symbols for 8, 11, 13, 14, and 15 differ between **bravo16** and _hexadecimal_.
 
-## Safety
+## Safety: Alphanumeric Confusion
 
-There are letters, and numerals that individual can confuse:
+There are a number of ways that _safety_ was considered when choosing the symbols used for the **brave16** (base-16) encoding.
+
+One of those ways was:...
+> Which symbols do humans commonly confuse with other symbols?
+
+There are a number of letter, and numeral symbols that are common for individuals to confuse.
+
+This confusion can be due to different reasons, namely:
+
+* **the font used** (on a computer, or in print) can make certain symbols look similar and cause humans to confuse them,
+* the way that some humans **(hand) write** certain symbols can make them look similar to other symbols and cause humans to confuse them, and
+* the way that some humans **handwrite (in cursive)** certain symbols an make them look similar to other symbols and cause humans to confuse them.
+
+Here are a number of tables listing out the common symbol confusions:....
 
 |   Character   | Confused With |
 | ------------- |:------------- |
