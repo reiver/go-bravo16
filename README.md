@@ -506,7 +506,7 @@ We would have to encode these _alphanumeric confusion_ relations in Golang.
 
 We could encode these _alphanumeric confusion_ relations in Golang with a structure such as:
 ```go
-var alphanumericConfusion map[rune]map[rune]struct{}{
+var alphanumericConfusion map[rune]map[rune]struct{} = map[rune]map[rune]struct{}{
   '0': map[rune]struct{}{},
   '1': map[rune]struct{}{},
   '2': map[rune]struct{}{},
@@ -574,7 +574,7 @@ Where the _keys_ of the outer `map` is the value from the _character_ column in 
 
 Then if we fill in the rules we have:
 ```go
-var alphanumericConfusion map[rune]map[rune]struct{}{
+var alphanumericConfusion map[rune]map[rune]struct{} = map[rune]map[rune]struct{}{
   '0': map[rune]struct{}{
     '8': struct{}{},
     'D': struct{}{},
