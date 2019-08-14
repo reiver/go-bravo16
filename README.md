@@ -803,15 +803,15 @@ for r, _ := range alphanumericConfusion {
 Now if we dumped the contents of `confusionLevels` (where we combine the _confusion_ for _uppercase_ letters, and _lowercase_ letters) we would get something such as:
 ```go
 map[rune]int{
-  '0': 6,
-  '1': 6,
+  '0': 6, // <-------------- HIGH CONFUSION
+  '1': 6, // <-------------- HIGH CONFUSION
   '2': 2,
   '3': 3,
   '4': 4,
-  '5': 6,
+  '5': 6, // <-------------- HIGH CONFUSION
   '6': 3,
   '7': 5,
-  '8': 7,
+  '8': 7, // <------------------- HIGH CONFUSION
   '9': 4,
   'a': 2,
   'b': 2,
@@ -820,16 +820,16 @@ map[rune]int{
   'e': 2,
   'f': 3,
   'g': 4,
-  'h': 0, // <--- no confusion
-  'i': 5,
-  'j': 3,
-  'k': 0, // <---- no confusion
+  'h': 0, // <-------------- no confusion
+  'i': 4,
+  'j': 2,
+  'k': 0, // <-------------- no confusion
   'l': 2,
   'm': 1,
   'n': 1,
   'o': 4,
   'p': 2,
-  'q': 7, // <---- HIGH CONFUSION
+  'q': 7, // <------------------- HIGH CONFUSION
   'r': 1,
   's': 2,
   't': 3,
