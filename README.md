@@ -287,3 +287,24 @@ Here are a number of tables listing out the common symbol confusions:....
 | **l** (lowercase) | 1 (one)       |
 | **l** (lowercase) | I (uppercase) |
 | **l** (lowercase) | i (lowercase) |
+
+### M
+
+|     Character     | Confused With |
+|:----------------- |:------------- |
+| **M** (uppercase) | N (uppercase) |
+
+|     Character     | Confused With |
+|:----------------- |:------------- |
+| **m** (lowercase) | n (lowercase) |
+
+### N
+
+|     Character     | Confused With |
+|:----------------- |:------------- |
+| **N** (uppercase) | M (uppercase) |
+
+|     Character     | Confused With |
+|:----------------- |:------------- |
+| **n** (lowercase) | m (lowercase) |
+
