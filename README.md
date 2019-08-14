@@ -364,3 +364,18 @@ Here are a number of tables listing out the common symbol confusions:....
 | **R** (uppercase) | F (uppercase) |
 
 **No common confusion for lowercase “r”.**
+
+### S
+
+|     Character     | Confused With |
+|:----------------- |:------------- |
+| **S** (uppercase) | 5 (five) |
+| **S** (uppercase) | 8 (eight)     |
+| **S** (uppercase) | s (lowercase) |
+
+|     Character     | Confused With |
+|:----------------- |:------------- |
+| **s** (lowercase) | 5 (five) |
+| **s** (lowercase) | 8 (eight)     |
+| **s** (lowercase) | s (lowercase) |
+
