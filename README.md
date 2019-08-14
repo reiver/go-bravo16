@@ -350,3 +350,8 @@ Here are a number of tables listing out the common symbol confusions:....
 | **Q** (uppercase) | o (lowercase) |
 | **Q** (uppercase) | U (uppercase) |
 
+|     Character     | Confused With |
+|:----------------- |:------------- |
+| **q** (lowercase) | 9 (nine)      |
+| **q** (lowercase) | a (lowercase) |
+| **q** (lowercase) | g (lowercase) |
