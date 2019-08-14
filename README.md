@@ -500,6 +500,10 @@ Here are a number of tables listing out the common symbol confusions:....
 
 ### Golang (Alphanumeric Confusion)
 
+If we wanted to derive the bravo16 encoding from scratch, we could write some Golang code to do it.
+
+We would have to encode these _alphanumeric confusion_ relations in Golang.
+
 We could encode these _alphanumeric confusion_ relations in Golang with a structure such as:
 ```go
 var alphanumericConfusion map[rune]map[rune]struct{}{
@@ -567,3 +571,102 @@ var alphanumericConfusion map[rune]map[rune]struct{}{
 }
 ```
 Where the _keys_ of the outer `map` is the value from the _character_ column in our _alphanumeric confusion_ tables.
+
+Then if we fill in the rules we have:
+```go
+var alphanumericConfusion map[rune]map[rune]struct{}{
+  '0': map[rune]struct{}{
+    '8': struct{}{},
+    'D': struct{}{},
+    'O': struct{}{},
+    'o': struct{}{},
+    'Q': struct{}{},
+    'u': struct{}{},
+  },
+  '1': map[rune]struct{}{
+    '7': struct{}{},
+    'I': struct{}{},
+    'i': struct{}{},
+    'j': struct{}{},
+    'L': struct{}{},
+    'l': struct{}{},
+  },
+  '2': map[rune]struct{}{
+    'Z': struct{}{},
+    'z': struct{}{},
+  },
+  '3': map[rune]struct{}{
+    '3': struct{}{},
+    '5': struct{}{},
+    '9': struct{}{},
+  },
+  '4': map[rune]struct{}{
+    '9': struct{}{},
+    'U': struct{}{},
+    'u': struct{}{},
+  },
+  '5': map[rune]struct{}{
+    '3': struct{}{},
+    '8': struct{}{},
+    'S': struct{}{},
+    's': struct{}{},
+    'Y': struct{}{},
+    'y': struct{}{},
+  },
+  '6': map[rune]struct{}{},
+  '7': map[rune]struct{}{},
+  '8': map[rune]struct{}{},
+  '9': map[rune]struct{}{},
+  'A': map[rune]struct{}{},
+  'a': map[rune]struct{}{},
+  'B': map[rune]struct{}{},
+  'C': map[rune]struct{}{},
+  'c': map[rune]struct{}{},
+  'D': map[rune]struct{}{},
+  'd': map[rune]struct{}{},
+  'E': map[rune]struct{}{},
+  'e': map[rune]struct{}{},
+  'F': map[rune]struct{}{},
+  'f': map[rune]struct{}{},
+  'G': map[rune]struct{}{},
+  'g': map[rune]struct{}{},
+  'H': map[rune]struct{}{},
+  'h': map[rune]struct{}{},
+  'I': map[rune]struct{}{},
+  'i': map[rune]struct{}{},
+  'J': map[rune]struct{}{},
+  'j': map[rune]struct{}{},
+  'K': map[rune]struct{}{},
+  'k': map[rune]struct{}{},
+  'L': map[rune]struct{}{},
+  'l': map[rune]struct{}{},
+  'M': map[rune]struct{}{},
+  'm': map[rune]struct{}{},
+  'N': map[rune]struct{}{},
+  'n': map[rune]struct{}{},
+  'O': map[rune]struct{}{},
+  'o': map[rune]struct{}{},
+  'P': map[rune]struct{}{},
+  'p': map[rune]struct{}{},
+  'Q': map[rune]struct{}{},
+  'q': map[rune]struct{}{},
+  'R': map[rune]struct{}{},
+  'r': map[rune]struct{}{},
+  'S': map[rune]struct{}{},
+  's': map[rune]struct{}{},
+  'T': map[rune]struct{}{},
+  't': map[rune]struct{}{},
+  'U': map[rune]struct{}{},
+  'u': map[rune]struct{}{},
+  'V': map[rune]struct{}{},
+  'v': map[rune]struct{}{},
+  'W': map[rune]struct{}{},
+  'w': map[rune]struct{}{},
+  'X': map[rune]struct{}{},
+  'x': map[rune]struct{}{},
+  'Y': map[rune]struct{}{},
+  'y': map[rune]struct{}{},
+  'Z': map[rune]struct{}{},
+  'z': map[rune]struct{}{},
+}
+```
