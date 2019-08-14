@@ -160,7 +160,7 @@ Here are a number of tables listing out the common symbol confusions:....
 | **a** (lowercase) | o (lowercase) |
 | **a** (lowercase) | q (lowercase) |
 
-**No common confusion for uppercase “A”**
+**No common confusion for uppercase “A”.**
 
 ### B
 
@@ -193,7 +193,7 @@ Here are a number of tables listing out the common symbol confusions:....
 | **D** (uppercase) | O (uppercase) |
 | **D** (uppercase) | o (lowercase) |
 
-**No common confusion for lowercase “d”**
+**No common confusion for lowercase “d”.**
 
 ### E
 
@@ -228,3 +228,9 @@ Here are a number of tables listing out the common symbol confusions:....
 | ----------------- |:------------- |
 | **g** (lowercase) | 9 (nine)      |
 | **g** (lowercase) | q (lowercase) |
+
+### H
+
+**No common confusion for uppercase “H”.**
+
+**No common confusion for lowercase “h”.**
