@@ -275,3 +275,15 @@ Here are a number of tables listing out the common symbol confusions:....
 **No common confusion for uppercase “K”.**
 
 **No common confusion for lowercase “k”.**
+
+### L
+
+|     Character     | Confused With |
+|:----------------- |:------------- |
+| **L** (uppercase) | I (uppercase) |
+
+|     Character     | Confused With |
+|:----------------- |:------------- |
+| **l** (lowercase) | 1 (one)       |
+| **l** (lowercase) | I (uppercase) |
+| **l** (lowercase) | i (lowercase) |
