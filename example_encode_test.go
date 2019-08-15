@@ -23,10 +23,8 @@ func ExampleEncode() {
 
 	fmt.Println("SRC: 000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f (hexadecimal)",)
 	fmt.Printf("DST: %s (bravo16)\n", dst)
-	fmt.Println("      .")
 
 	// Output:
 	// SRC: 000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f (hexadecimal)
 	// DST: 00000000001kdxxHkC0H5AE1x5Hm1Ekm4ffVxmAE4xA2AxC1V2bmf1bx0AHCE2xf (bravo16)
-	//       .
 }
