@@ -11,7 +11,7 @@ func ExampleDecode() {
 	// 0r00000000001kdxxHkC0H5AE1x5Hm1Ekm4ffVxmAE4xA2AxC1V2bmf1bx0AHCE2xf
 	var src []byte = []byte("00000000001kdxxHkC0H5AE1x5Hm1Ekm4ffVxmAE4xA2AxC1V2bmf1bx0AHCE2xf")
 
-	lenDst := len(src)/2
+	lenDst := bravo16.DecodeLen(len(src))
 	var dst []byte = make([]byte, lenDst)
 
 	_, err := bravo16.Decode(dst, src)
