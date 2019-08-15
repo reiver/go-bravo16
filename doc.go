@@ -44,5 +44,64 @@ Here are some examples of bravo16 literals:
 	0rEE
 	0rff
 
+Example Encode
+
+Here is how you encode binary data as bravo16:
+
+	// The ‘src’ variable contains our binary data.
+	var src []byte = []byte{0x00, 0x00, 0x00, 0x00, 0x00, 0x19, 0xd6, 0x68, 0x9c, 0x08, 0x5a, 0xe1, 0x65, 0x83, 0x1e, 0x93, 0x4f, 0xf7, 0x63, 0xae, 0x46, 0xa2, 0xa6, 0xc1, 0x72, 0xb3, 0xf1, 0xb6, 0x0a, 0x8c, 0xe2, 0x6f}
+	
+	// ...
+	
+	// The ‘dst’ variable will contain the encoded bravo16 data, after we call bravo16.Encode()
+	lenDst := bravo16.EncodeLen(len(src))
+	var dst []byte = make([]byte, lenDst)
+	
+	n, err := bravo16.Encode(dst, src)
+
+Example Encode Literal
+
+Here is how you encode binary data as a bravo16 literal:
+
+	// The ‘src’ variable contains our binary data.
+	var src []byte = []byte{0x00, 0x00, 0x00, 0x00, 0x00, 0x19, 0xd6, 0x68, 0x9c, 0x08, 0x5a, 0xe1, 0x65, 0x83, 0x1e, 0x93, 0x4f, 0xf7, 0x63, 0xae, 0x46, 0xa2, 0xa6, 0xc1, 0x72, 0xb3, 0xf1, 0xb6, 0x0a, 0x8c, 0xe2, 0x6f}
+	
+	// ...
+	
+	// The ‘dst’ variable will contain the encoded bravo16 data, after we call bravo16.Encode()
+	lenDst := bravo16.EncodeLiteralLen(len(src))
+	var dst []byte = make([]byte, lenDst)
+	
+	n, err := bravo16.EncodeLiteral(dst, src)
+
+Example Encode
+
+Here is how you decode bravo16 data:
+
+	// The ‘src’ variable contains our binary data.
+	var src []byte = []byte("00000000001kdxxHkC0H5AE1x5Hm1Ekm4ffVxmAE4xA2AxC1V2bmf1bx0AHCE2xf")
+	
+	// ...
+	
+	// The ‘dst’ variable will contain the encoded bravo16 data, after we call bravo16.Encode()
+	lenDst := bravo16.DecodeLen(len(src))
+	var dst []byte = make([]byte, lenDst)
+	
+	n, err := bravo16.Decode(dst, src)
+
+Example Encode Literal
+
+Here is how you decode a bravo16 literal:
+
+	// The ‘src’ variable contains our binary data.
+	var src []byte = []byte("0r00000000001kdxxHkC0H5AE1x5Hm1Ekm4ffVxmAE4xA2AxC1V2bmf1bx0AHCE2xf")
+	
+	// ...
+	
+	// The ‘dst’ variable will contain the encoded bravo16 data, after we call bravo16.Encode()
+	lenDst := bravo16.DecodeLiteralLen(len(src))
+	var dst []byte = make([]byte, lenDst)
+	
+	n, err := bravo16.DecodeLiteral(dst, src)
 */
 package bravo16
