@@ -1139,16 +1139,18 @@ func TestEncode(t *testing.T) {
 
 	for testNumber, test := range tests {
 
-		var dest []byte = make([]byte, len(test.Src)*2)
+		dstLen := bravo16.EncodeLen(len(test.Src))
 
-		n, err := bravo16.Encode(dest, test.Src)
+		var dst []byte = make([]byte, dstLen)
+
+		n, err := bravo16.Encode(dst, test.Src)
 		if nil != err {
 			t.Errorf("For test #%d, did not expect an error, but actually got one: (%T) %q", testNumber, err, err)
 			t.Logf("Src (string): %q", test.Src)
 			t.Logf("Src (bytes): %#v", test.Src)
 			continue
 		}
-		if expected, actual := int64(len(dest)), n; expected != actual {
+		if expected, actual := int64(dstLen), n; expected != actual {
 			t.Errorf("For test #%d, the actual number of bytes written at destination is not what was expected.", testNumber)
 			t.Logf("Src (string): %q", test.Src)
 			t.Logf("Src (bytes): %#v", test.Src)
@@ -1157,7 +1159,7 @@ func TestEncode(t *testing.T) {
 			continue
 		}
 
-		if expected, actual := test.Expected, dest; !bytes.Equal(expected, actual) {
+		if expected, actual := test.Expected, dst; !bytes.Equal(expected, actual) {
 			t.Errorf("For test #%d, the actual bytes written at destination is not what was expected.", testNumber)
 			t.Logf("Src (string): %q", test.Src)
 			t.Logf("Src (bytes): %#v", test.Src)
