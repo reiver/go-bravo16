@@ -414,7 +414,7 @@ Here are a number of tables listing out the common symbol confusions:....
 | **u** (lowercase) | O (uppercase) |
 | **u** (lowercase) | o (lowercase) |
 | **u** (lowercase) | Q (uppercase) |
-| **u** (lowercase) | u (lowercase) |
+| **u** (lowercase) | U (uppercase) |
 | **u** (lowercase) | V (uppercase) |
 | **u** (lowercase) | v (lowercase) |
 
