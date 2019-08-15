@@ -23,7 +23,7 @@ func Encode(dst []byte, src []byte) (int64, error) {
 	return int64(EncodeLen(lenSrc)), nil
 }
 
-// EncodeLen returns the length in bytes of the bravo16 encoded binary data.
+// EncodeLen returns the length in bytes of the binary data encoded in bravo16.
 func EncodeLen(n int) int {
 	return 2*n
 }
@@ -47,7 +47,7 @@ func EncodeLiteral(dst []byte, src []byte) (int64, error) {
 	return n64, err
 }
 
-// EncodeLiteralLen returns the length in bytes of the bravo16 prefix (i.e., “0r”) plus the bravo16 encoded binary data.
+// EncodeLiteralLen returns the length in bytes of the binary data encoded in bravo16 plus the length of the  bravo16 prefix (i.e., “0r”).
 func EncodeLiteralLen(n int) int {
 	if 1 > n {
 		return 0
