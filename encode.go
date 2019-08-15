@@ -4,6 +4,7 @@ import (
 	"fmt"
 )
 
+// Encode encodes the binary data in ‘src’ into ‘dst’ as bravo16, and returns the number of bytes written to ‘dst’.
 func Encode(dest []byte, src []byte) (int64, error) {
 	lenSrc := len(src)
 
