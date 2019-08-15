@@ -58,6 +58,8 @@ Here is how you encode binary data as bravo16:
 	var dst []byte = make([]byte, lenDst)
 	
 	n, err := bravo16.Encode(dst, src)
+	
+	// dst == []byte("00000000001kdxxHkC0H5AE1x5Hm1Ekm4ffVxmAE4xA2AxC1V2bmf1bx0AHCE2xf")
 
 Example Encode Literal
 
@@ -68,22 +70,24 @@ Here is how you encode binary data as a bravo16 literal:
 	
 	// ...
 	
-	// The ‘dst’ variable will contain the encoded bravo16 data, after we call bravo16.Encode()
+	// The ‘dst’ variable will contain the encoded bravo16 literal, after we call bravo16.EncodeLiteral()
 	lenDst := bravo16.EncodeLiteralLen(len(src))
 	var dst []byte = make([]byte, lenDst)
 	
 	n, err := bravo16.EncodeLiteral(dst, src)
+	
+	// dst == []byte("0r00000000001kdxxHkC0H5AE1x5Hm1Ekm4ffVxmAE4xA2AxC1V2bmf1bx0AHCE2xf")
 
 Example Encode
 
 Here is how you decode bravo16 data:
 
-	// The ‘src’ variable contains our binary data.
+	// The ‘src’ variable contains the bravo16 encoded data.
 	var src []byte = []byte("00000000001kdxxHkC0H5AE1x5Hm1Ekm4ffVxmAE4xA2AxC1V2bmf1bx0AHCE2xf")
 	
 	// ...
 	
-	// The ‘dst’ variable will contain the encoded bravo16 data, after we call bravo16.Encode()
+	// The ‘dst’ variable will contain the (decoded) binary data, after we call bravo16.Decode()
 	lenDst := bravo16.DecodeLen(len(src))
 	var dst []byte = make([]byte, lenDst)
 	
@@ -93,12 +97,12 @@ Example Encode Literal
 
 Here is how you decode a bravo16 literal:
 
-	// The ‘src’ variable contains our binary data.
+	// The ‘src’ variable contains the bravo16 literal.
 	var src []byte = []byte("0r00000000001kdxxHkC0H5AE1x5Hm1Ekm4ffVxmAE4xA2AxC1V2bmf1bx0AHCE2xf")
 	
 	// ...
 	
-	// The ‘dst’ variable will contain the encoded bravo16 data, after we call bravo16.Encode()
+	// The ‘dst’ variable will contain the (decoded) binary data, after we call bravo16.DecodeLiteral()
 	lenDst := bravo16.DecodeLiteralLen(len(src))
 	var dst []byte = make([]byte, lenDst)
 	
