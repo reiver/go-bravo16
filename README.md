@@ -11,7 +11,7 @@ Rather than using hexadecimal's symbols:
 ```
 ... **bravo16** uses the symbols:
 ```
-0 1 2 3 4 5 6 7 k 9 a m c x w p
+0 1 2 m 4 5 x V H k A b C d E f
 ```
 
 (Why these symbols were chosen is covered later in this document.)
@@ -31,21 +31,24 @@ The following symbols are used for the **bravo16** encoding:
 |       0   |           0 |       0 |   0000 |
 |       1   |           1 |       1 |   0001 |
 |       2   |           2 |       2 |   0010 |
-|       3   |           3 |       3 |   0011 |
+|     **m** |           3 |       3 |   0011 |
 |       4   |           4 |       4 |   0100 |
 |       5   |           5 |       5 |   0101 |
-|       6   |           6 |       6 |   0110 |
-|       7   |           7 |       7 |   0111 |
-|     **k** |           8 |       8 |   1000 |
-|       9   |           9 |       9 |   1001 |
-|       a   |           a |      10 |   1010 |
-|     **m** |           b |      11 |   1011 |
-|       c   |           c |      12 |   1100 |
-|     **x** |           d |      13 |   1101 |
-|     **w** |           e |      14 |   1110 |
-|     **p** |           f |      15 |   1111 |
+|     **x** |           6 |       6 |   0110 |
+|     **V** |           7 |       7 |   0111 |
+|     **H** |           8 |       8 |   1000 |
+|     **k** |           9 |       9 |   1001 |
+|      _A_  |           a |      10 |   1010 |
+|       b   |           b |      11 |   1011 |
+|      _C_  |           c |      12 |   1100 |
+|       d   |           d |      13 |   1101 |
+|      _E_  |           e |      14 |   1110 |
+|       f   |           f |      15 |   1111 |
 
-Which means that the symbols for 8, 11, 13, 14, and 15 differ between **bravo16** and _hexadecimal_.
+Which means that the symbols for **‘3’**, **‘6’**, **‘7’**, **‘8’**, and **‘9’** differ between **bravo16** and _hexadecimal_.
+
+And also that the symbols for **‘A’**, **‘C’**, and **‘E’** are always in uppercase.
+And the symbols for **‘b’**, **‘d’**, and **‘e’** are always in lowercase.
 
 ## Safety: Alphanumeric Confusion
 
