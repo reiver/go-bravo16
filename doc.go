@@ -18,11 +18,11 @@ And the symbols for ‘b’, ‘d’, and ‘e’ are always in lowercase.
 
 Literals
 
-To make it so that **bravo16** literals can be distinguished from hexadecimal literals, decimal literlals, and octal liberals, **bravo16** literals begin with the following prefix:
+To make it so that bravo16 literals can be distinguished from hexadecimal literals, decimal literlals, and octal liberals, bravo16 literals begin with the following prefix:
 
 	0r
 
-I.e., **bravo16** literals begin with a **zero** followed by a lowercase ‘r’.
+I.e., bravo16 literals begin with a zero followed by a lowercase ‘r’.
 
 Here are some examples of bravo16 literals:
 
