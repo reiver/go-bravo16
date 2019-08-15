@@ -21,12 +21,10 @@ func ExampleDecode() {
 		return
 	}
 
-	fmt.Printf("SRC: 0r%s (bravo16)\n", src)
-	fmt.Printf("DST: 0x%x (hexadecimal)\n", dst)
-	fmt.Println("      .")
+	fmt.Printf("SRC: %s (bravo16)\n", src)
+	fmt.Printf("DST: %x (hexadecimal)\n", dst)
 
 	// Output:
-	// SRC: 0r00000000001kdxxHkC0H5AE1x5Hm1Ekm4ffVxmAE4xA2AxC1V2bmf1bx0AHCE2xf (bravo16)
-	// DST: 0x000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f (hexadecimal)
-	//       .
+	// SRC: 00000000001kdxxHkC0H5AE1x5Hm1Ekm4ffVxmAE4xA2AxC1V2bmf1bx0AHCE2xf (bravo16)
+	// DST: 000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f (hexadecimal)
 }
