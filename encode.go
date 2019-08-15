@@ -21,6 +21,10 @@ func Encode(dst []byte, src []byte) (int64, error) {
 
 // EncodeLen returns the length in bytes of the binary data encoded in bravo16.
 func EncodeLen(n int) int {
+	if 0 > n {
+		return 0
+	}
+
 	return 2*n
 }
 

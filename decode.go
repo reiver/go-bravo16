@@ -59,6 +59,10 @@ func Decode(dst []byte, src []byte) (int64, error) {
 
 // DecodeLen returns the length in bytes of the bravo16 data decoded into binary data.
 func DecodeLen(n int) int {
+	if 0 > n {
+		return 0
+	}
+
 	return n/2
 }
 
