@@ -1,0 +1,35 @@
+package bravo16
+
+import (
+	"fmt"
+)
+
+// TooShort is an error that is returned by bravo16.Decode() is it receives an invalid symbol.
+type TooShort interface {
+	error
+	TooShort() (expected int, actual int, src int)
+}
+
+func errTooShort(expected int, actual int, src int) error {
+	var e TooShort = &internalTooShort{
+		expected: expected,
+		actual:   actual,
+		src:      src,
+	}
+
+	return e
+}
+
+type internalTooShort struct {
+	expected int
+	actual   int
+	src      int
+}
+
+func (receiver internalTooShort) Error() string {
+	return fmt.Sprintf("bravo16: Destination Too Short: expected(at least)=%d actual=%d src=%d", receiver.expected, receiver.actual, receiver.src)
+}
+
+func (receiver internalTooShort) TooShort() (expected int, actual int, src int) {
+	return receiver.expected, receiver.actual, receiver.src
+}
