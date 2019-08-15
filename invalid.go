@@ -4,6 +4,7 @@ import (
 	"fmt"
 )
 
+// Invalid is an error that is returned by bravo16.Decode() is it receives an invalid symbol.
 type Invalid interface {
 	error
 	Invalid() (byte, int64)
