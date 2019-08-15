@@ -27,7 +27,7 @@ type internalTooShort struct {
 }
 
 func (receiver internalTooShort) Error() string {
-	return fmt.Sprintf("bravo16: Destination Too Short: expected(at least)=%d actual=%d src=%d", receiver.expected, receiver.actual, receiver.src)
+	return fmt.Sprintf("bravo16: Destination Too Short: for source of length %d bytes, expected destination length to be at least %d bytes, actually was %d bytes long", receiver.src, receiver.expected, receiver.actual)
 }
 
 func (receiver internalTooShort) TooShort() (expected int, actual int, src int) {
