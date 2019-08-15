@@ -11,7 +11,7 @@ func Encode(dst []byte, src []byte) (int64, error) {
 	if 1 > lenSrc {
 		return 0, nil
 	}
-	if expectedAtLeast, actual := 2*lenSrc, len(dst); actual < expectedAtLeast {
+	if expectedAtLeast, actual := EncodeLen(lenSrc), len(dst); actual < expectedAtLeast {
 		return 0, fmt.Errorf("bravo16: Destination Too Short: expected length at least %d but actually got length %d", expectedAtLeast, actual)
 	}
 
@@ -20,5 +20,11 @@ func Encode(dst []byte, src []byte) (int64, error) {
 		dst[i*2+1] = encode[b & 0x0f] // least significant byte
 	}
 
-	return int64(lenSrc*2), nil
+	return int64(EncodeLen(lenSrc)), nil
+}
+
+// EncodeLen returns the length in bytes of the bravo16 encoded binary data.
+func EncodeLen(n int) int {
+	return 2*n
+}
 }
