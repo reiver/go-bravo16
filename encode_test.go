@@ -1154,6 +1154,8 @@ func TestEncode(t *testing.T) {
 			t.Errorf("For test #%d, the actual number of bytes written at destination is not what was expected.", testNumber)
 			t.Logf("Src (string): %q", test.Src)
 			t.Logf("Src (bytes): %#v", test.Src)
+			t.Logf("Dst (string):  %q", dst)
+			t.Logf("Dst (bytes):  %#v", dst)
 			t.Logf("EXPECTED: %d", expected)
 			t.Logf("ACTUAL:   %d", actual)
 			continue
