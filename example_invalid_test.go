@@ -11,7 +11,7 @@ func ExampleInvalid() {
 	// This is not valid bravo16
 	var src []byte = []byte("AA3678")
 
-	lenDst := len(src)/2
+	lenDst := bravo16.DecodeLen(len(src))
 	var dst []byte = make([]byte, lenDst)
 
 	_, err := bravo16.Decode(dst, src)
