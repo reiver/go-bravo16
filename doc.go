@@ -1,5 +1,5 @@
 /*
-Package bravo16 provides (human) safe base-16 binary-to-text encoding, and decoding; brave16 is an alternative to hexadecimal.
+Package bravo16 provides more (human) safe base-16 binary-to-text encoding, and decoding; brave16 is an alternative to hexadecimal.
 
 The safety comes from carefully choosing the symbols use for the base-16 symbols.
 
