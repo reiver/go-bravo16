@@ -22,6 +22,34 @@ Online documentation, which includes examples, can be found at: http://godoc.org
 
 [![GoDoc](https://godoc.org/github.com/reiver/go-bravo16?status.svg)](https://godoc.org/github.com/reiver/go-bravo16)
 
+## Literals
+
+To make it so that **bravo16** literals can be distinguished from _hexadecimal_ literals, _decimal_ literlals, and _octal_ liberals, **bravo16** literals begin with the following prefix:
+
+> 0r
+
+I.e., **bravo16** literals begin with a **zero** followed by a lowercase ‘r’.
+
+Here are some examples of **bravo16** literals:
+
+* `0r00000000001kdxxHkC0H5AE1x5Hm1Ekm4ffVxmAE4xA2AxC1V2bmf1bx0AHCE2xf`
+* `0r00`
+* `0r11`
+* `0r22`
+* `0rmm`
+* `0r44`
+* `0r55`
+* `0rxx`
+* `0rVV`
+* `0rHH`
+* `0rkk`
+* `0rAA`
+* `0rbb`
+* `0rCC`
+* `0rdd`
+* `0rEE`
+* `0rff`
+
 ## Symbols
 
 The following symbols are used for the **bravo16** encoding:
