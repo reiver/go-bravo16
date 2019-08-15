@@ -14,13 +14,13 @@ func Decode(dst []byte, src []byte) (int64, error) {
 	if length := lenSrc; 0 != length % 2 {
 		return 0, fmt.Errorf("bravo16: Source Odd Length: %d", length)
 	}
-	if expectedAtLeast, actual := lenSrc/2, len(dst); actual < expectedAtLeast {
+	if expectedAtLeast, actual := DecodeLen(lenSrc), len(dst); actual < expectedAtLeast {
 		return 0, fmt.Errorf("bravo16: Destination Too Short: expected length at least %d but actually got length %d", expectedAtLeast, actual)
 	}
 
 	var n64 int64
 	{
-		limit := lenSrc/2
+		limit := DecodeLen(lenSrc)
 
 		for i:=0; i<limit; i++ {
 			ii := i*2
@@ -55,4 +55,9 @@ func Decode(dst []byte, src []byte) (int64, error) {
 	}
 
 	return n64, nil
+}
+
+// DecodeLen returns the length in bytes of the bravo16 data decoded into binary data.
+func DecodeLen(n int) int {
+	return n/2
 }
