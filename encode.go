@@ -1,9 +1,5 @@
 package bravo16
 
-import (
-	"fmt"
-)
-
 // Encode encodes the binary data in ‘src’ into ‘dst’ as bravo16, and returns the number of bytes written to ‘dst’.
 func Encode(dst []byte, src []byte) (int64, error) {
 	lenSrc := len(src)
@@ -12,7 +8,7 @@ func Encode(dst []byte, src []byte) (int64, error) {
 		return 0, nil
 	}
 	if expectedAtLeast, actual := EncodeLen(lenSrc), len(dst); actual < expectedAtLeast {
-		return 0, fmt.Errorf("bravo16: Destination Too Short: expected length at least %d but actually got length %d", expectedAtLeast, actual)
+		return 0, errTooShort(expectedAtLeast, actual, lenSrc)
 	}
 
 	for i, b := range src {
@@ -36,7 +32,7 @@ func EncodeLiteral(dst []byte, src []byte) (int64, error) {
 		return 0, nil
 	}
 	if expectedAtLeast, actual := 2*lenSrc+2, len(dst); actual < expectedAtLeast {
-		return 0, fmt.Errorf("bravo16: Destination Too Short: expected length at least %d but actually got length %d", expectedAtLeast, actual)
+		return 0, errTooShort(expectedAtLeast, actual, lenSrc)
 	}
 
 	dst[0] = '0'

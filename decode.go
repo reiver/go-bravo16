@@ -15,7 +15,7 @@ func Decode(dst []byte, src []byte) (int64, error) {
 		return 0, fmt.Errorf("bravo16: Source Odd Length: %d", length)
 	}
 	if expectedAtLeast, actual := DecodeLen(lenSrc), len(dst); actual < expectedAtLeast {
-		return 0, fmt.Errorf("bravo16: Destination Too Short: expected length at least %d but actually got length %d", expectedAtLeast, actual)
+		return 0, errTooShort(expectedAtLeast, actual, lenSrc)
 	}
 
 	var n64 int64
